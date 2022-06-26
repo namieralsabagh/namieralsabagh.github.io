@@ -1,0 +1,87 @@
+*{
+  font-family: 'Nova Round', cursive;
+
+}
+h1, h2, ul, table {
+  background-color: white;
+  opacity: .6;
+  margin: auto;
+
+
+}
+#rule-box {
+  background-color: white;
+  opacity: .6;
+  margin: auto;
+  border-radius: 15px;
+
+}
+#rule-box > h2, ul {
+  opacity: 1;
+
+}
+
+
+body {
+  background-image: url("https://www.publicdomainpictures.net/pictures/150000/nahled/tropical-beach-1454007190ZAK.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+button:hover {
+  background-color: rgb(0, 191, 255);
+}
+
+table {
+  width: 700px;
+  height: 700px;
+  margin: auto;
+  border-radius: 15px;
+  border: solid 2px purple;
+  padding: 5px;
+}
+
+td {
+  border: solid 2px coral;
+  text-align:center;
+  background-color: aquamarine;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px black;
+
+
+}
+
+td:hover {
+  background-color: purple;
+  }
+
+#game-name {
+
+  margin: auto;
+}
+img {
+  animation: bounce 5s infinite;
+  animation-timing-function: ease-in-out;
+  margin: auto;
+}
+
+
+@keyframes bounce {
+  0% {
+  transform: scaleX(1.0);
+  }
+  50% {
+    transform: scaleX(1.5);
+  }
+  100% {
+    transform: scaleX(1.0);
+  }
+}
